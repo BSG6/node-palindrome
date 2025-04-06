@@ -1,0 +1,28 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BSG6/node-palindrome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BSG6/node-palindrome/issues"
+  },
+  "homepage": "https://github.com/BSG6/node-palindrome#readme",
+  "dependencies": {
+    "figlet": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
